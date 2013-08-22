@@ -1,0 +1,23 @@
+{
+  "name": "has-cors",
+  "version": "0.0.1",
+  "description": "Detects support for Cross-Origin Resource Sharing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/component/has-cors.git"
+  },
+  "dependencies": {
+    "global": "component/global"
+  },
+  "keywords": [
+    "cors",
+    "cross",
+    "origin",
+    "resource",
+    "sharing",
+    "domain"
+  ],
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "license": "MIT"
+}
