@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var global = require('global')();
+var global = require('global');
 
 /**
  * Module exports.
