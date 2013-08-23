@@ -19,5 +19,10 @@
     "domain"
   ],
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "component": {
+    "scripts": {
+      "has-cors/index.js": "index.js"
+    }
+  }
 }
