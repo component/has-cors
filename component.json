@@ -2,7 +2,7 @@
   "name": "has-cors",
   "repo": "component/has-cors",
   "description": "Detects support for Cross-Origin Resource Sharing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [],
   "dependencies": {
     "component/global": "*"
