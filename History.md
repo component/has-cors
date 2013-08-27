@@ -1,4 +1,10 @@
 
+1.0.2 / 2013-08-27
+==================
+
+ - explicitly use `global` instead of being implicit
+ - pin "component/global" to v2.0.1
+
 1.0.1 / 2013-08-23
 ==================
 
