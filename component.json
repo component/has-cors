@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "keywords": [],
   "dependencies": {
-    "component/global": "*"
+    "component/global": "2.0.1"
   },
   "development": {},
   "license": "MIT",
