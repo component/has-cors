@@ -13,4 +13,5 @@ var global = require('global');
  *   - https://github.com/Modernizr/Modernizr/blob/master/feature-detects/cors.js
  */
 
-module.exports = 'XMLHttpRequest' in global && 'withCredentials' in new XMLHttpRequest();
+module.exports = 'XMLHttpRequest' in global &&
+  'withCredentials' in new global.XMLHttpRequest();
