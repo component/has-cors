@@ -8,7 +8,7 @@
     "url": "git://github.com/component/has-cors.git"
   },
   "dependencies": {
-    "global": "component/global"
+    "global": "https://github.com/component/global/archive/v2.0.1.tar.gz"
   },
   "keywords": [
     "cors",
