@@ -1,6 +1,6 @@
 {
   "name": "has-cors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detects support for Cross-Origin Resource Sharing",
   "main": "index.js",
   "repository": {
