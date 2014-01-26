@@ -13,5 +13,11 @@ var global = require('global');
  *   - https://github.com/Modernizr/Modernizr/blob/master/feature-detects/cors.js
  */
 
-module.exports = 'XMLHttpRequest' in global &&
-  'withCredentials' in new global.XMLHttpRequest();
+try {
+  module.exports = 'XMLHttpRequest' in global &&
+    'withCredentials' in new global.XMLHttpRequest();
+} catch (err) {
+  // if XMLHttp support is disabled in IE then it will throw
+  // when trying to create
+  module.exports = false;
+}
