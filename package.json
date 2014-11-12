@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git://github.com/component/has-cors.git"
   },
-  "dependencies": {
-    "global": "https://github.com/component/global/archive/v2.0.1.tar.gz"
-  },
   "keywords": [
     "cors",
     "cross",
@@ -24,5 +21,12 @@
     "scripts": {
       "has-cors/index.js": "index.js"
     }
+  },
+  "devDependencies": {
+    "mocha": "^2.0",
+    "chai": "^1.10"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
